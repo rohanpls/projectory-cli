@@ -1,0 +1,42 @@
+{
+  "name": "projectory-cli",
+  "version": "1.0",
+  "description": "A simple CLI tool to generate a Markdown file containing the directory structure of a project.",
+  "main": "dist/index.js",
+  "bin": {
+    "projectory": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanpls/projectory-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "tree",
+    "directory",
+    "structure",
+    "generator"
+  ],
+  "author": "rohanpls",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rohanpls/projectory-cli/issues"
+  },
+  "homepage": "https://github.com/rohanpls/projectory-cli#readme",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "ignore": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "typescript": "^5.8.3"
+  }
+}
